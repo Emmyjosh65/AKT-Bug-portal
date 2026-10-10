@@ -2,10 +2,10 @@ const crypto = require('crypto');
 
 const WORKER_SECRET = process.env.WORKER_SECRET || "sqx_worker_9f2a7c1e4b8d3f60";
 const WORKER_SERVERS = [
-    'http://localhost:2016', // put the ip of the vps and the port of the server
+    'http://pterodactyl:2016', // put the ip of the vps and the port of the server
 ];
 
-const OWNER_CODE = process.env.OWNER_CODE || '12345678';
+const OWNER_CODE = process.env.OWNER_CODE || '090667';
 const OWNER_TOKEN_SECRET = process.env.OWNER_TOKEN_SECRET || 'sqx_owner_9d3f7a1c8e2b4f60';
 const OWNER_TOKEN_TTL_MS = 12 * 3600 * 1000;
 
