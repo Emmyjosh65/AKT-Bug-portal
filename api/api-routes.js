@@ -2,7 +2,7 @@ const crypto = require('crypto');
 
 const WORKER_SECRET = process.env.WORKER_SECRET || "sqx_worker_9f2a7c1e4b8d3f60";
 const WORKER_SERVERS = [
-    'http://pterodactyl:2016', // put the ip of the vps and the port of the server
+    'http://localhost:2016', // put the ip of the vps and the port of the server
 ];
 
 const OWNER_CODE = process.env.OWNER_CODE || '12345678';
