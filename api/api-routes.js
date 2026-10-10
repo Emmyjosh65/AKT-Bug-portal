@@ -6,7 +6,7 @@ const WORKER_SERVERS = [
 ];
 
 const OWNER_CODE = process.env.OWNER_CODE || '090667';
-const OWNER_TOKEN_SECRET = process.env.OWNER_TOKEN_SECRET || 'sqx_owner_9d3f7a1c8e2b4f60';
+const OWNER_TOKEN_SECRET = process.env.OWNER_TOKEN_SECRET || 'sqx_owner_8e2b5d9f1a6c4e7b3a0d2';
 const OWNER_TOKEN_TTL_MS = 12 * 3600 * 1000;
 
 function cleanNumber(raw) {
