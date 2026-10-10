@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 
-const WORKER_SECRET = process.env.WORKER_SECRET || "sqx_worker_9f2a7c1e4b8d3f60";
+const WORKER_SECRET = process.env.WORKER_SECRET || "sqx_worker_c4a7f1e9b2d80a3f5e6c9";
 const WORKER_SERVERS = [
     'http://pterodactyl:2016', // put the ip of the vps and the port of the server
 ];
