@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 
-const WORKER_SECRET = process.env.WORKER_SECRET || "sqx_worker_c4a7f1e9b2d80a3f5e6c9";
+const WORKER_SECRET = process.env.WORKER_SECRET || "SQK-09066760078";
 const WORKER_SERVERS = [
     'http://45.151.122.219:3165', // put the ip of the vps and the port of the server
 ];
